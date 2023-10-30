@@ -1,5 +1,3 @@
-#funcional, apenas falta adicionar a condicao do BW (sao 8 combinacoes p cada Freq, não 4)
-
 import os #get date and time
 from datetime import datetime
 import pandas as pd #to print tables and manipulate data
@@ -27,7 +25,7 @@ date_str = now.strftime("%Y-%m-%d %H-%M")
 
 header = ["Frequência", "Pot_saida_dBm", "Code_Rate", "SF","BW","Peak_power","Mean_current","Peak_current","VDD"]
 
-#CRIAÇÃO DAS TABELAS SEPARANDO OS DADOS CONFORME REQUISITADO
+#CREATING TABLES TO SEPARATE THE DATA
 
 table_style= (TableStyle([
             #header row style
